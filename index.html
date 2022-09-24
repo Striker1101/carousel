@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="progress"></div>
+    <div class="container">
+        <div class="slides">
+            <div class="leftBtn">
+                <button class="lefton" onclick="goLeft()">left</button>
+            </div>
+            <div id="imgShower"> 
+                <div id="imgShow"></div>
+                <div class="middle"></div>   
+            </div>
+            <div class="rightBtn">
+                <button class="rigthon" onclick="goRight()">right</button>
+            </div>
+        </div>
+        <div class="pinBtn">
+            <div class="circle" id="one" onclick="circleOne()"></div>
+            <div class="circle" id="two" onclick="circleTwo()"></div>
+            <div class="circle" id="three" onclick="circleThree()"></div>
+            <div class="circle" id="four" onclick="circleFour()"></div>
+            <div class="circle" id="five" onclick="circleFive()"></div>
+        </div> 
+    </div>
+    <div class="set">
+        <img  src="assets/img1.png" alt="">
+        <img src="assets/img10.png" alt="">
+        <img src="assets/img11.png" alt="">
+        <img src="assets/img12.png" alt="">
+        <img src="assets/img2.png" alt="">
+        <div></div>
+    </div>
+    <div class="text">
+        <div> picture 1</div>
+        <div> picture 2</div>
+        <div> picture 3</div>
+        <div> picture 4</div>
+        <div> picture 5</div>
+    </div>
+
+</body>
+</html>
